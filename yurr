@@ -1,0 +1,2 @@
+javascriptCopy code
+if (typeof window.ethereum !== 'undefined') { window.ethereum.enable().then(function (accounts) { console.log('Connected to Metamask. Your account: ', accounts[0]); }); } else { console.log('Metamask is not detected. Please install and unlock it.'); } 
